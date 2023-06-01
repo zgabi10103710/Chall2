@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ma page avec une vidéo</title>
+</head>
+<body>
+<video id="myVideo" width="1000" height="1000" controls>
+    <source src="Song/music.mp4" type="video/mp4">
+    <!-- Ajoutez d'autres sources pour différents formats vidéo -->
+    Votre navigateur ne supporte pas la lecture de vidéos.
+</video>
+
+<script>
+    // Code JavaScript pour manipuler la vidéo
+    var video = document.getElementById("myVideo");
+    video.play(); // Démarre automatiquement la lecture de la vidéo
+    video.pause(); // Met en pause la lecture de la vidéo
+    video.currentTime = 30; // Définit la position de lecture à 30 secondes
+</script>
+</body>
+</html>
